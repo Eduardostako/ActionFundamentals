@@ -21,6 +21,8 @@ jobs:
           echo '${{ github.ref }}'
       - name: Checkout
         uses: actions/checkout@v6.0.2
+      - name: List files
+        run: ls -l
   
 
   
