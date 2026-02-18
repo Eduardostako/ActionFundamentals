@@ -18,7 +18,7 @@ jobs:
       - name: Test Event
         run: |
           echo '${{ github.event_name}}'
-          echo '${{ github.ref }}
+          echo '${{ github.ref }}'
       - name: Checkout
         uses: actions/checkout@v6.0.2
   
